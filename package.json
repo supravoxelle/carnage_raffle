@@ -1,0 +1,11 @@
+{
+  "name": "lions-raffle",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/moonsama/lions-raffle.git",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.1.0",
+    "seedrandom": "^3.0.5"
+  }
+}
