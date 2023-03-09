@@ -1,6 +1,7 @@
 const seedrandom = require('seedrandom')
 const fs = require('fs')
 
+//https://twitter.com/thefakesama/status/1633593993895243778
 const rng = seedrandom('696969')
 const ethers = require('ethers')
 
