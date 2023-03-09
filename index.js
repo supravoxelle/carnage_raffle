@@ -47,5 +47,12 @@ draws.map((draw) => {
     }
 })
 
+// double check
+let total = 0
+Object.keys(winners).map((addy) => {
+    total += winners[addy]
+})
+console.log('Total samples:', total)
+
 fs.writeFileSync('winners.json', JSON.stringify(winners, null, 2))
 console.log('./winners.json')
