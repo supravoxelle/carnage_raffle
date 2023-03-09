@@ -24,7 +24,7 @@ console.log(addresses.length, weights.length, cumulated.length)
 
 // drawing
 const draws = []
-for (let round = 0; round < 400; round++) {
+for (let round = 0; round < 350; round++) {
     const rnd = rng()
 
     let random = rnd * cumulated[cumulated.length - 1];
