@@ -7,12 +7,15 @@ const ethers = require('ethers')
 
 const list = JSON.parse(fs.readFileSync('staking_results.json', 'utf8'))
 
+const winners = {}
+
 // extracting addresses and weights list
 const addresses = []
 const weights = []
 list.filter(item => item.safari_tokens_total !== '0').map((item) => {
     addresses.push(item.wallet_address)
     weights.push(Math.round(ethers.formatUnits(item.safari_tokens_total, 'gwei')))
+    winners[item.wallet_address] = 0
 })
 
 // cumulating weights
@@ -38,7 +41,6 @@ for (let round = 0; round < 350; round++) {
 }
 
 // counting winners
-const winners = {}
 draws.map((draw) => {
     const addy = addresses[draw]
     if (winners[addy]) {
