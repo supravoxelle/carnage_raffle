@@ -1,12 +1,13 @@
 const seedrandom = require("seedrandom");
 const fs = require("fs");
 
-// Hash from block #3244500
+// Hash from block #3245500 // this is a placeholder - the actual hash will replace it
 const hash =
   "0x83f45ab9b4136b753ba624002e87b6711e066f77aee812f9f17937a84de9bbe9";
 
-// isolate all numeric values from hash e.g 0834594136753624002876711066778129179378492
+// isolate all numeric values from hash e.g '0834594136753624002876711066778129179378499'
 const seed = hash.replace(/[a-zA-Z]/g, "");
+//console.log('seed', seed);
 
 const rng = seedrandom(seed);
 
@@ -20,7 +21,6 @@ const weights = [];
 list
   .filter((item) => item["amount"] !== "0")
   .map((item) => {
-    //console.log("item", item);
     names.push(item["name"]);
     weights.push(item["amount"]);
     winners[item["name"]] = 0;
@@ -31,9 +31,8 @@ const cumulated = weights.slice();
 for (let i = 0; i < cumulated.length; i++) {
   cumulated[i] += cumulated[i - 1] || 0;
 }
-//console.log(names.length, weights.length, cumulated.length);
 
-// drawing
+// draw 90 winners
 const draws = [];
 for (let round = 0; round < 90; round++) {
   const rnd = rng();
@@ -62,6 +61,7 @@ Object.keys(winners).map((addy) => {
   total += winners[addy];
 });
 
+// sort winner list from high to low
 const sortedWinners = Object.entries(winners)
   .sort((a, b) => b[1] - a[1])
   .reduce((obj, [key, value]) => {
@@ -70,7 +70,5 @@ const sortedWinners = Object.entries(winners)
   }, {});
 
 const totals = Object.values(winners).reduce((acc, val) => acc + val, 0);
-console.log(totals);
 
 fs.writeFileSync("winners.json", JSON.stringify(sortedWinners, null, 2));
-//console.log("./winners.json");
