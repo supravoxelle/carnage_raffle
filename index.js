@@ -1,61 +1,76 @@
-const seedrandom = require('seedrandom')
-const fs = require('fs')
+const seedrandom = require("seedrandom");
+const fs = require("fs");
 
-//https://twitter.com/thefakesama/status/1633593993895243778
-const rng = seedrandom('696969')
-const ethers = require('ethers')
+// Hash from block #3244500
+const hash =
+  "0x83f45ab9b4136b753ba624002e87b6711e066f77aee812f9f17937a84de9bbe9";
 
-const list = JSON.parse(fs.readFileSync('staking_results.json', 'utf8'))
+// isolate all numeric values from hash e.g 0834594136753624002876711066778129179378492
+const seed = hash.replace(/[a-zA-Z]/g, "");
 
-const winners = {}
+const rng = seedrandom(seed);
 
-// extracting addresses and weights list
-const addresses = []
-const weights = []
-list.filter(item => item.safari_tokens_total !== '0').map((item) => {
-    addresses.push(item.wallet_address)
-    weights.push(Math.round(ethers.formatUnits(item.safari_tokens_total, 'gwei')))
-    winners[item.wallet_address] = 0
-})
+const list = JSON.parse(fs.readFileSync("ticket_totals.json", "utf8"));
+
+const winners = {};
+
+// extracting names and weights list
+const names = [];
+const weights = [];
+list
+  .filter((item) => item["amount"] !== "0")
+  .map((item) => {
+    //console.log("item", item);
+    names.push(item["name"]);
+    weights.push(item["amount"]);
+    winners[item["name"]] = 0;
+  });
 
 // cumulating weights
-const cumulated = weights.slice()
+const cumulated = weights.slice();
 for (let i = 0; i < cumulated.length; i++) {
-    cumulated[i] += cumulated[i - 1] || 0;
+  cumulated[i] += cumulated[i - 1] || 0;
 }
-console.log(addresses.length, weights.length, cumulated.length)
+//console.log(names.length, weights.length, cumulated.length);
 
 // drawing
-const draws = []
-for (let round = 0; round < 350; round++) {
-    const rnd = rng()
+const draws = [];
+for (let round = 0; round < 90; round++) {
+  const rnd = rng();
 
-    let random = rnd * cumulated[cumulated.length - 1];
+  let random = rnd * cumulated[cumulated.length - 1];
 
-    let i = 0
-    for (i; i < cumulated.length; i++)
-        if (cumulated[i] > random)
-            break;
+  let i = 0;
+  for (i; i < cumulated.length; i++) if (cumulated[i] > random) break;
 
-    draws.push(i)
+  draws.push(i);
 }
 
 // counting winners
 draws.map((draw) => {
-    const addy = addresses[draw]
-    if (winners[addy]) {
-        winners[addy]++
-    } else {
-        winners[addy] = 1
-    }
-})
+  const addy = names[draw];
+  if (winners[addy]) {
+    winners[addy]++;
+  } else {
+    winners[addy] = 1;
+  }
+});
 
 // double check
-let total = 0
+let total = 0;
 Object.keys(winners).map((addy) => {
-    total += winners[addy]
-})
-console.log('Total samples:', total)
+  total += winners[addy];
+});
 
-fs.writeFileSync('winners.json', JSON.stringify(winners, null, 2))
-console.log('./winners.json')
+const sortedWinners = Object.entries(winners)
+  .sort((a, b) => b[1] - a[1])
+  .reduce((obj, [key, value]) => {
+    obj[key] = value;
+    return obj;
+  }, {});
+
+const totals = Object.values(winners).reduce((acc, val) => acc + val, 0);
+console.log(totals);
+
+fs.writeFileSync("winners.json", JSON.stringify(sortedWinners, null, 2));
+//console.log("./winners.json");
