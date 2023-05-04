@@ -24,8 +24,8 @@ list.sort((a, b) => b.amount - a.amount);
 // get top 10 and remove them from the list
 const topTen = list.splice(0, 10);
 
-const ten = topTen.reduce((acc, { name }) => {
-  acc[`${name}`] = 1;
+const ten = topTen.reduce((acc, { playerId }) => {
+  acc[`${playerId}`] = 1000;
   return acc;
 }, {});
 
@@ -37,7 +37,7 @@ const weights = [];
 list
   .filter((item) => item["amount"] !== "0")
   .map((item) => {
-    names.push(item["name"]);
+    names.push(item["playerId"]);
     weights.push(item["amount"]);
   });
 
@@ -70,7 +70,7 @@ winnersList.map((winner) => {
   if (winners[winner]) {
     winners[winner]++;
   } else {
-    winners[winner] = 1;
+    winners[winner] = 1000;
   }
 });
 
@@ -84,4 +84,4 @@ const sortedWinners = Object.entries(winners)
 
 const final = { ...ten, ...sortedWinners };
 
-fs.writeFileSync("winners.json", JSON.stringify(final, null, 2));
+fs.writeFileSync("uuids.json", JSON.stringify(final, null, 2));
