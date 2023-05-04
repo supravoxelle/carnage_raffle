@@ -3,9 +3,9 @@ const fs = require("fs");
 
 // Hash from block #3368500
 const hash =
-  "0x2122d7f4b1d351f119edefeb90f0defdb0c458af65ffc8aeb468c574eed01b6e"; //example
+  "0xd3d1ea424623909ae6622fa349689b18cf683a296b376d5de4b7766af608e0e3";
 
-// isolate all numeric values from hash. ouput: '021227413511199000458658468574016'
+// isolate all numeric values from hash. ouput: '03142462390966223496891868329637654776660803'
 const seed = hash.replace(/[a-zA-Z]/g, "");
 
 //console.log("seed", seed);
@@ -29,8 +29,6 @@ const ten = topTen.reduce((acc, { name }) => {
   return acc;
 }, {});
 
-console.log(ten);
-
 // extracting names and weights list
 const names = [];
 const weights = [];
@@ -41,7 +39,7 @@ list
     weights.push(item["amount"]);
   });
 
-// draw 90 winners
+// draw 90 uniquw winners
 const winnersList = [];
 for (let round = 0; round < 90; round++) {
   const rnd = rng();
