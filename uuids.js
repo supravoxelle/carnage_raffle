@@ -3,12 +3,13 @@ const fs = require("fs");
 
 // Hash from block #3474000
 const hash =
-  "0xd3d1ea424623909ae6622fa349689b18cf683a296b376d5de4b7766af608e0e3"; // example until block #3474000
+  "0x84ffe5dc1f65b07c1a35582dad83f7f54e5eea7389fccaef225dfaa48d5ad6d6";
 
-// isolate all numeric values from hash. ouput: '03142462390966223496891868329637654776660803'
+// isolate all numeric values from hash ouput: '084516507135582837545738922548566'
+
 const seed = hash.replace(/[a-zA-Z]/g, "");
 
-//console.log("seed", seed);
+console.log("seed", seed);
 
 const rng = seedrandom(seed);
 
