@@ -21,14 +21,6 @@ const list = leaders.filter((item) => item.amount > 0);
 // sort by amount in descending order
 list.sort((a, b) => b.amount - a.amount);
 
-// get top 10 and remove them from the list
-const topTen = list.splice(0, 10);
-
-const ten = topTen.reduce((acc, { name }) => {
-  acc[`${name}`] = 1;
-  return acc;
-}, {});
-
 // extracting names and weights list
 const names = [];
 const weights = [];
@@ -39,9 +31,9 @@ list
     weights.push(item["amount"]);
   });
 
-// draw 90 uniquw winners
+// draw 1 unique winner
 const winnersList = [];
-for (let round = 0; round < 90; round++) {
+for (let round = 0; round < 1; round++) {
   const rnd = rng();
 
   let random = rnd * weights.reduce((a, b) => a + b, 0);
@@ -80,6 +72,4 @@ const sortedWinners = Object.entries(winners)
     return obj;
   }, {});
 
-const final = { ...ten, ...sortedWinners };
-
-fs.writeFileSync("winners.json", JSON.stringify(final, null, 2));
+fs.writeFileSync("art_winner.json", JSON.stringify(sortedWinners, null, 2));
