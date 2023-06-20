@@ -10,3 +10,14 @@ node index.js
 ```
 
 Then check [winners](./winners.json).
+
+# lootbox-raffle-test
+
+to test the lootbox raffle logic:
+
+```
+yarn
+cd lootbox
+node index.js
+
+```
