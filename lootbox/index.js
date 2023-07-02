@@ -2,11 +2,12 @@ const seedrandom = require("seedrandom");
 const fs = require("fs");
 
 // Example hash from block #4160000
-const hash = "0x92a6fa6213310dadacb47105f3784f4c1ec8aa237d9095d3f4fc24727e6324";
+const hash =
+  "0xf0bfbe05a99bfd32f40a50e79d730152a6f2d6f1f55d0369907726b5caa7ade0";
 
 console.log("Hash used: ", hash);
 
-// Isolate all numeric values from hash. Output: '09266213310471053784418237909534247276324'
+// Isolate all numeric values from hash. Output: '000599324050797301526261550369907726570'
 
 const seed = hash.replace(/[a-zA-Z]/g, "");
 
@@ -56,3 +57,16 @@ if (winnersExosama.length > 0) {
 } else {
   console.log("No Exosama winners chosen.");
 }
+
+const winners = {
+  winnersMoonsama,
+  winnersExosama,
+};
+
+// Save winners as JSON to a file
+fs.writeFileSync(
+  "lootbox_raffle_winners.json",
+  JSON.stringify(winners, null, 2)
+);
+
+console.log("Winners saved to lootbox_raffle_winners.json");
