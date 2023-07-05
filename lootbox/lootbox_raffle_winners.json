@@ -1,0 +1,21 @@
+{
+  "winnersMoonsama": [],
+  "winnersExosama": [
+    {
+      "id": 17227,
+      "recipient": "0x6c097608e0583dd612fb3873c59ed1758792189f",
+      "lootMintedHash": "multi-chain mint",
+      "openedAt": 1686914722690,
+      "amount": 1,
+      "mintInProgress": false,
+      "lootboxId": "0xd335417999ff2b9b59737244e554370264b3f877-4-1",
+      "dispatched": true,
+      "mintErrored": false,
+      "openInitiatedAt": 1686914682420,
+      "transactionHashes": "{\"1285\":\"0xaae6dd8b8da3bd7bb3155c3116f05d00d90b937de582092d5d4cbdc3e01ea6f1\"}",
+      "order": 50,
+      "chanceOfWinningMoonsama": 0.0005,
+      "chanceOfWinningExosama": 0.005
+    }
+  ]
+}
