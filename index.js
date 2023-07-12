@@ -3,9 +3,9 @@ const fs = require("fs");
 
 // Hash from block #4334000
 const hash =
-  "0x3ebca23f70de3e26514b2a19db856499d7b26ddf3021cabde05b26eebd38efa1";
+  "0x2ea67bcc6bb528107448af885881e6e3b8790403a7f12134a9512cc61f54d39b";
 
-// isolate all numeric values from hash. ouput: '03237032651421985649972630210526381'
+// isolate all numeric values from hash. ouput: '026765281074488858816387904037121349512615439'
 
 const seed = hash.replace(/[a-zA-Z]/g, "");
 
