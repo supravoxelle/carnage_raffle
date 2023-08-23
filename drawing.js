@@ -3,9 +3,9 @@ const fs = require("fs");
 
 // Hash from block #4334000
 const hash =
-  "0x3a2ad4828bf87fa695ba8d7d3c2e2da1dd7fb79be041ccba23834c12f041d283";
+  "0xc28fb41e1bf0680bf65840e9298dd907b8e23ba93c66c8fd4273ac4ec09f17d0";
 
-// isolate all numeric values from hash. ouput: '0324828876958732217790412383412041283'
+// isolate all numeric values from hash. ouput: '0284110680658409298907823936684273409170'
 
 const seed = hash.replace(/[a-zA-Z]/g, "");
 
@@ -73,4 +73,4 @@ const sortedWinners = Object.entries(winners)
     return obj;
   }, {});
 
-fs.writeFileSync("art_winner.json", JSON.stringify(sortedWinners, null, 2));
+fs.writeFileSync("drawing_winner.json", JSON.stringify(sortedWinners, null, 2));
