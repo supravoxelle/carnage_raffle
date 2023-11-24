@@ -34,7 +34,7 @@ list
 
 // draw 1 unique winner
 const winnersList = [];
-for (let round = 0; round < 1; round++) {
+for (let round = 0; round < 2; round++) {
   const rnd = rng();
 
   let random = rnd * weights.reduce((a, b) => a + b, 0);
