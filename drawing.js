@@ -5,7 +5,7 @@ const fs = require("fs");
 const hash =
   "0x093efa911694a307448ce78e88aecfb56c740f0e4c9ea3eff1e6b01868ff2022";
 
-// isolate all numeric values from hash. ouput: '063777467621270978746008987625856483831'
+// isolate all numeric values from hash. ouput: '07366801591728373564622813150817306143240'
 
 const seed = hash.replace(/[a-zA-Z]/g, "");
 
