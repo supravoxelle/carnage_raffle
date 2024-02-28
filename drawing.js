@@ -1,7 +1,7 @@
 const seedrandom = require("seedrandom");
 const fs = require("fs");
 
-// Hash from block #8294000
+// Hash from block #8535000
 const hash =
   "0x093efa911694a307448ce78e88aecfb56c740f0e4c9ea3eff1e6b01868ff2022";
 
