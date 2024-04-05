@@ -1,11 +1,19 @@
 const seedrandom = require("seedrandom");
 const fs = require("fs");
 
+<<<<<<< HEAD:index.js
+// Hash from block #9114000
+const hash =
+  "0x3f2a49cc3772717e5d828c30f688f2a7f81d05544af0439ade990ea4b382e703";
+
+// isolate all numeric values from hash. ouput: '03249377271758283068827810554404399904382703'
+=======
 // Hash from block #8535000
 const hash =
   "0x093efa911694a307448ce78e88aecfb56c740f0e4c9ea3eff1e6b01868ff2022";
 
 // isolate all numeric values from hash. ouput: '07366801591728373564622813150817306143240'
+>>>>>>> 5061f0dfcbe7cbee4be41d83ac47ed05d7011ebc:quiz_picker.js
 
 const seed = hash.replace(/[a-zA-Z]/g, "");
 
@@ -13,7 +21,7 @@ console.log("seed", seed);
 
 const rng = seedrandom(seed);
 
-const data = JSON.parse(fs.readFileSync("leaderboard.json"));
+const data = JSON.parse(fs.readFileSync("quiz_people.json"));
 
 const leaders = data.leaderboards[0].leaderboard;
 
