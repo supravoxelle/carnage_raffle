@@ -13,7 +13,7 @@ console.log("seed", seed);
 
 const rng = seedrandom(seed);
 
-const data = JSON.parse(fs.readFileSync("leaderboard.json"));
+const data = JSON.parse(fs.readFileSync("quiz_people.json"));
 
 const leaders = data.leaderboards[0].leaderboard;
 
