@@ -1,7 +1,7 @@
 const seedrandom = require("seedrandom");
 const fs = require("fs");
 
-// Hash from block #8913000
+// Hash from block #9020000
 const hash =
   "0xcd2a36848d22245f5eae380eebabb6efa8fc7cad6257de7554cb3e02f4c6bfd4";
 
@@ -25,8 +25,8 @@ list.sort((a, b) => b.amount - a.amount);
 // get top 10 and remove them from the list
 const topTen = list.splice(0, 10);
 
-const ten = topTen.reduce((acc, { playerId }) => {
-  acc[`${playerId}`] = 1000;
+const ten = topTen.reduce((acc, { name }) => {
+  acc[`${name}`] = 1;
   return acc;
 }, {});
 
@@ -36,11 +36,11 @@ const weights = [];
 list
   .filter((item) => item["amount"] !== "0")
   .map((item) => {
-    names.push(item["playerId"]);
+    names.push(item["name"]);
     weights.push(item["amount"]);
   });
 
-// draw 90 winners
+// draw 90 unique winners
 const winnersList = [];
 for (let round = 0; round < 90; round++) {
   const rnd = rng();
@@ -69,7 +69,7 @@ winnersList.map((winner) => {
   if (winners[winner]) {
     winners[winner]++;
   } else {
-    winners[winner] = 1000;
+    winners[winner] = 1;
   }
 });
 
@@ -83,4 +83,4 @@ const sortedWinners = Object.entries(winners)
 
 const final = { ...ten, ...sortedWinners };
 
-fs.writeFileSync("uuids.json", JSON.stringify(final, null, 2));
+fs.writeFileSync("winners.json", JSON.stringify(final, null, 2));
