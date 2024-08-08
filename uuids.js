@@ -1,11 +1,11 @@
 const seedrandom = require("seedrandom");
 const fs = require("fs");
 
-// Hash from block #11045000
+// Hash from block #11330000
 const hash =
-  "0x5b147d28a105c553f616e205bcf4d42c6d15702a98628e46bd343b5def7d024c";
+  "0x2fccdb9114cd9f9de78a3ecfb7df25f050d5752b3b20655dbc74b030d2e6d2f6";
 
-// isolate all numeric values from hash. ouput: '0514728105553616205442615702986284634357024'
+// isolate all numeric values from hash. ouput: '029114997837250505752320655740302626'
 
 const seed = hash.replace(/[a-zA-Z]/g, "");
 
