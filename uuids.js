@@ -1,11 +1,11 @@
 const seedrandom = require("seedrandom");
 const fs = require("fs");
 
-// Hash from block #11690000
+// Hash from block #11805000
 const hash =
-  "0x3527da7b483d5b79919c9102b524f9aae14cd9654fcccae656f3d728e3fa2335";
+  "0xbd1d4dd5f4f524b4173b7fdeef518bdadd57527921c375381106e80894880ddc";
 
-// isolate all numeric values from hash. ouput: '03527748357991991025249149654656372832335'
+// isolate all numeric values from hash. ouput: '01454524417375185752792137538110680894880'
 
 const seed = hash.replace(/[a-zA-Z]/g, "");
 
@@ -42,7 +42,7 @@ list
 
 // draw 90 winners
 const winnersList = [];
-for (let round = 0; round < 90; round++) {
+for (let round = 0; round < 86; round++) {
   const rnd = rng();
 
   let random = rnd * weights.reduce((a, b) => a + b, 0);
