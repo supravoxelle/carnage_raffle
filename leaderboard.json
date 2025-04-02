@@ -10,7 +10,7 @@
         {
             "itemId": "bubu_tickets",
             "name": "Bubu Tickets",
-            "amount": 20670,
+            "amount": 20423,
             "icon": "https:\/\/mcapi.moonsama.com\/static\/images\/res-bubuTicket.png"
         }
     ],
@@ -19,368 +19,305 @@
             "itemId": "bubu_tickets",
             "leaderboard": [
                 {
-                    "playerId": "04b91954-759a-4636-8ef6-959f54a6b8cd",
-                    "name": "NickOfTheSama",
-                    "rank": 1,
-                    "amount": 959,
-                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/931c020f-8099-357b-3a47-ce944acff9df\/avatar\/head\/file"
-                },
-                {
                     "playerId": "2d2c13e1-1608-471b-84be-7dc611e9894d",
                     "name": "__Timma__",
-                    "rank": 2,
-                    "amount": 948,
+                    "rank": 1,
+                    "amount": 1337,
                     "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/3f4fd78e-aefe-31ff-bc27-ad2132dfcc98\/avatar\/head\/file"
                 },
                 {
-                    "playerId": "8e0f504a-f8b1-4ea8-b0dd-ee5e79d0c021",
-                    "name": "Dibbion",
-                    "rank": 3,
-                    "amount": 933,
-                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/11ba0136-8453-f449-197b-d9decc398fe6\/avatar\/head\/file"
-                },
-                {
-                    "playerId": "5f97860d-048b-4f37-8ef0-9332bf24304c",
-                    "name": "Libba_Sama",
-                    "rank": 4,
-                    "amount": 866,
-                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/710c7c41-3037-05ab-588b-ca7fbc3ed97d\/avatar\/head\/file"
-                },
-                {
-                    "playerId": "109e540a-afbc-4d67-875d-130b7701db13",
-                    "name": "EXO_GreenSama",
-                    "rank": 5,
-                    "amount": 772,
-                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/e04d4e3d-ff7c-54e0-fa95-aa876c09e7b8\/avatar\/head\/file"
-                },
-                {
-                    "playerId": "c399081e-9333-438f-ae69-9c7d8429e468",
-                    "name": "Sonthunder",
-                    "rank": 6,
-                    "amount": 738,
-                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/b2e86422-d0e3-acc0-0438-b84a266f9a7c\/avatar\/head\/file"
-                },
-                {
-                    "playerId": "79c31c62-3562-45c5-9a3d-e463ce1b4c4c",
-                    "name": "EssejSemaj",
-                    "rank": 7,
-                    "amount": 676,
-                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/975b6efe-5e7a-b33d-bf10-3ee5f700d0ac\/avatar\/head\/file"
-                },
-                {
-                    "playerId": "58dda0ff-7ddb-4aec-8249-32d441643d24",
-                    "name": "UnidentifiedMnd",
-                    "rank": 8,
-                    "amount": 672,
-                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/a096c995-12ed-d0f5-fb13-55afa9ebc84f\/avatar\/head\/file"
-                },
-                {
-                    "playerId": "b5faa2ac-337c-4b3e-9012-6e82af8488d3",
-                    "name": "elrupero",
-                    "rank": 9,
-                    "amount": 661,
-                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/d65d2c96-6e5c-d02a-029c-54f8dae4a396\/avatar\/head\/file"
+                    "playerId": "ac4fcc50-d8ed-4c66-a1b6-d5bf0a6c5f72",
+                    "name": "Arpman",
+                    "rank": 2,
+                    "amount": 1179,
+                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/d87624b4-611b-5a1f-2855-c0dd4404fb2b\/avatar\/head\/file"
                 },
                 {
                     "playerId": "e7828000-62e0-4340-b7a3-aee57b66029a",
                     "name": "AllBlueisReal",
-                    "rank": 10,
-                    "amount": 645,
+                    "rank": 3,
+                    "amount": 1148,
                     "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/b391b2bb-2c3c-ee6a-35de-d1f5e9ff8e58\/avatar\/head\/file"
-                },
-                {
-                    "playerId": "ac5fced7-1622-4c8a-80b3-9379b9138157",
-                    "name": "DejahThoris",
-                    "rank": 11,
-                    "amount": 638,
-                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/0e5bbdb1-0aa1-38cf-a97d-d0a556573c4e\/avatar\/head\/file"
-                },
-                {
-                    "playerId": "309468a7-8880-46f1-8644-1f42b1f6d36c",
-                    "name": "Qeruvin",
-                    "rank": 12,
-                    "amount": 593,
-                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/dd793830-48a1-fe0c-8e3f-8efa30d086e7\/avatar\/head\/file"
                 },
                 {
                     "playerId": "4208fa4f-6d12-4cec-a750-375535d6aac6",
                     "name": "Alnitak34",
-                    "rank": 13,
-                    "amount": 570,
+                    "rank": 4,
+                    "amount": 1109,
                     "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/e4bd2408-64b4-e2ea-299e-7e37ed7e08a7\/avatar\/head\/file"
                 },
                 {
-                    "playerId": "1c95c7da-6e7d-48c6-a930-a68d1a2bd20d",
-                    "name": "Voodoochild562",
-                    "rank": 14,
-                    "amount": 538,
-                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/7f65aee7-6225-1b2f-c9c9-793252a5eceb\/avatar\/head\/file"
+                    "playerId": "79c31c62-3562-45c5-9a3d-e463ce1b4c4c",
+                    "name": "EssejSemaj",
+                    "rank": 5,
+                    "amount": 1089,
+                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/975b6efe-5e7a-b33d-bf10-3ee5f700d0ac\/avatar\/head\/file"
+                },
+                {
+                    "playerId": "5f97860d-048b-4f37-8ef0-9332bf24304c",
+                    "name": "Libba_Sama",
+                    "rank": 6,
+                    "amount": 925,
+                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/710c7c41-3037-05ab-588b-ca7fbc3ed97d\/avatar\/head\/file"
                 },
                 {
                     "playerId": "5e042e09-bb8a-4b7b-a0f4-25ad22f32c8e",
                     "name": "Portzir",
-                    "rank": 15,
-                    "amount": 536,
+                    "rank": 7,
+                    "amount": 902,
                     "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/2a3b83b5-e140-56c0-d5d0-178fe82c29de\/avatar\/head\/file"
                 },
                 {
-                    "playerId": "48247bec-b66c-4a75-91ca-4f7454d4330b",
-                    "name": "Baia83",
-                    "rank": 16,
-                    "amount": 518,
-                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/3f6ac9c0-c255-4c0f-0fa0-8ecb5aa149e3\/avatar\/head\/file"
+                    "playerId": "109e540a-afbc-4d67-875d-130b7701db13",
+                    "name": "EXO_GreenSama",
+                    "rank": 8,
+                    "amount": 883,
+                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/e04d4e3d-ff7c-54e0-fa95-aa876c09e7b8\/avatar\/head\/file"
                 },
                 {
-                    "playerId": "18b224f9-6e1a-46fa-8ce6-59157b593bb6",
-                    "name": "groskieng",
-                    "rank": 17,
-                    "amount": 470,
-                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/28616bf3-f30e-ef07-53d7-76161cc8fea1\/avatar\/head\/file"
-                },
-                {
-                    "playerId": "e935eb08-5206-45a3-9b85-9512eaf93b4f",
-                    "name": "AnN1ka15",
-                    "rank": 18,
-                    "amount": 461,
-                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/5bcdd4aa-9198-4cc8-bef8-678cbc4ffe21\/avatar\/head\/file"
-                },
-                {
-                    "playerId": "a4221cc6-57f5-4e1b-ad8e-e53ae8fbe555",
-                    "name": "SiNoVA79",
-                    "rank": 19,
-                    "amount": 460,
-                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/cb4d17ff-d19f-e86a-b87e-fea83f4d67d6\/avatar\/head\/file"
-                },
-                {
-                    "playerId": "7f07356d-c7a5-4111-82c1-cc943fecaa2e",
-                    "name": "Eltesticulon",
-                    "rank": 20,
-                    "amount": 452,
-                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/1750204e-d7d0-9edb-e184-6231fa96dd9c\/avatar\/head\/file"
-                },
-                {
-                    "playerId": "a4d5745d-3fb2-4a51-8d98-d57ce9629dec",
-                    "name": "Merkaria",
-                    "rank": 21,
-                    "amount": 443,
-                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/e8ad7d83-ce2c-5a09-dc74-8db194560329\/avatar\/head\/file"
+                    "playerId": "c09b7d06-0801-4f61-9bb6-1c6d98ce0e5b",
+                    "name": "VeryNica",
+                    "rank": 9,
+                    "amount": 827,
+                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/bb0788de-f3c4-989e-f06f-5b027d4d475c\/avatar\/head\/file"
                 },
                 {
                     "playerId": "2d0bbb6c-2491-430f-9047-301896b7fd87",
                     "name": "Lykalullah",
-                    "rank": 22,
-                    "amount": 439,
+                    "rank": 10,
+                    "amount": 739,
                     "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/5cf58971-3aca-f599-c343-f2b8b6e9fe2b\/avatar\/head\/file"
                 },
                 {
-                    "playerId": "28cee49e-c9d7-4243-8b97-c7fcf18a7788",
-                    "name": "CryptoBull",
-                    "rank": 23,
-                    "amount": 405,
-                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/a2b1d358-8b1d-321d-cd63-df2fcb998d48\/avatar\/head\/file"
+                    "playerId": "e935eb08-5206-45a3-9b85-9512eaf93b4f",
+                    "name": "AnN1ka15",
+                    "rank": 11,
+                    "amount": 697,
+                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/5bcdd4aa-9198-4cc8-bef8-678cbc4ffe21\/avatar\/head\/file"
+                },
+                {
+                    "playerId": "b5faa2ac-337c-4b3e-9012-6e82af8488d3",
+                    "name": "elrupero",
+                    "rank": 12,
+                    "amount": 676,
+                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/d65d2c96-6e5c-d02a-029c-54f8dae4a396\/avatar\/head\/file"
+                },
+                {
+                    "playerId": "4e80b89b-0919-4a66-804c-f20e98c7fdfa",
+                    "name": "SliderNova",
+                    "rank": 13,
+                    "amount": 666,
+                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/9ad1684d-8600-501c-e299-ced608cf7605\/avatar\/head\/file"
+                },
+                {
+                    "playerId": "75e957a7-590a-48f3-b235-b2e3242787d8",
+                    "name": "Osielcrypt",
+                    "rank": 14,
+                    "amount": 662,
+                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/3550294e-2520-7d18-9292-5d283a25ecc9\/avatar\/head\/file"
+                },
+                {
+                    "playerId": "a685b2ea-0a7c-4720-bfbf-6dc408c74ae3",
+                    "name": "DCodi19",
+                    "rank": 15,
+                    "amount": 626,
+                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/d943b97f-8634-69d8-0db8-63eeba9de46c\/avatar\/head\/file"
+                },
+                {
+                    "playerId": "58dda0ff-7ddb-4aec-8249-32d441643d24",
+                    "name": "UnidentifiedMnd",
+                    "rank": 16,
+                    "amount": 558,
+                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/a096c995-12ed-d0f5-fb13-55afa9ebc84f\/avatar\/head\/file"
                 },
                 {
                     "playerId": "beeb12ee-58f2-43f2-8101-7194ebf4e9b0",
                     "name": "illingworth22",
-                    "rank": 24,
-                    "amount": 389,
+                    "rank": 17,
+                    "amount": 527,
                     "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/856b4268-362f-df86-5dd3-715af2dc0ce5\/avatar\/head\/file"
                 },
                 {
-                    "playerId": "d634120c-116b-44ac-8cf5-775721531e60",
-                    "name": "worf201",
-                    "rank": 25,
-                    "amount": 388,
-                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/420d68b3-8209-f640-b67c-3ee478bea3a4\/avatar\/head\/file"
-                },
-                {
-                    "playerId": "91c58b24-30d4-4ebc-b524-9ffb26225486",
-                    "name": "Fayamang_Sama",
-                    "rank": 26,
-                    "amount": 384,
-                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/744d10f1-7230-596d-3a04-c78df313981e\/avatar\/head\/file"
-                },
-                {
-                    "playerId": "277dc3d8-d136-44ff-b92c-947487032893",
-                    "name": "DexterMorgan507",
-                    "rank": 27,
-                    "amount": 361,
-                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/10cd99f3-3ff3-aa6c-ad93-51a2c6929d74\/avatar\/head\/file"
+                    "playerId": "f6c8663d-869d-469a-b5e5-05c6e1d22027",
+                    "name": "Khayle1188",
+                    "rank": 18,
+                    "amount": 522,
+                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/bb46b5cc-7a3e-07ee-9374-9dc12fa5c10c\/avatar\/head\/file"
                 },
                 {
                     "playerId": "8496f6d2-d7fc-48d5-8ff5-20dbab9dc960",
                     "name": "Iring_One_Two",
-                    "rank": 28,
-                    "amount": 345,
+                    "rank": 19,
+                    "amount": 499,
                     "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/1f94fefc-446f-3bc5-e408-ad852afe70bb\/avatar\/head\/file"
                 },
                 {
                     "playerId": "f702928f-e31b-47f8-b2c1-053fa85fbce4",
                     "name": "MeiMeiSaur",
-                    "rank": 29,
-                    "amount": 321,
+                    "rank": 20,
+                    "amount": 443,
                     "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/3a18dbc9-cdeb-411f-bee9-3aabe2575aab\/avatar\/head\/file"
                 },
                 {
-                    "playerId": "059ec306-f03d-4a34-a381-90229d7d4a47",
-                    "name": "SiracMC",
-                    "rank": 30,
-                    "amount": 314,
-                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/6868e0ec-f33b-1100-c62f-b16f87cadf07\/avatar\/head\/file"
-                },
-                {
-                    "playerId": "73f2ddeb-4cef-477a-9a89-172526f2df19",
-                    "name": "sc00ps6x",
-                    "rank": 31,
-                    "amount": 303,
-                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/34bd935f-6e5b-ccc9-b8ee-eaf969f7ee18\/avatar\/head\/file"
-                },
-                {
-                    "playerId": "75a59c8e-c7a5-4d32-bae4-89f9e6ad10de",
-                    "name": "MiwelR",
-                    "rank": 32,
-                    "amount": 300,
-                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/2600a030-b019-a783-708b-37a27a477003\/avatar\/head\/file"
+                    "playerId": "6a343163-61e2-44ed-a681-6a0aa50910ea",
+                    "name": "baaabshunter",
+                    "rank": 21,
+                    "amount": 400,
+                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/e9a06edb-c65f-fd76-97ed-ea14903f7b5c\/avatar\/head\/file"
                 },
                 {
                     "playerId": "227457ea-a70d-4643-800c-52257b2bb028",
                     "name": "Erikuzza43",
-                    "rank": 33,
-                    "amount": 293,
+                    "rank": 22,
+                    "amount": 362,
                     "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/611bc88d-9a96-bc42-1372-e49e0e988a3a\/avatar\/head\/file"
                 },
                 {
-                    "playerId": "4ca2a123-e453-4efb-9b19-6d9e908d01f7",
-                    "name": "Elias1122",
-                    "rank": 34,
-                    "amount": 256,
-                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/1796dfa2-62ed-4b52-cbad-a71ae35db1ae\/avatar\/head\/file"
+                    "playerId": "18b224f9-6e1a-46fa-8ce6-59157b593bb6",
+                    "name": "groskieng",
+                    "rank": 23,
+                    "amount": 333,
+                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/28616bf3-f30e-ef07-53d7-76161cc8fea1\/avatar\/head\/file"
+                },
+                {
+                    "playerId": "48247bec-b66c-4a75-91ca-4f7454d4330b",
+                    "name": "Baia83",
+                    "rank": 24,
+                    "amount": 332,
+                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/3f6ac9c0-c255-4c0f-0fa0-8ecb5aa149e3\/avatar\/head\/file"
+                },
+                {
+                    "playerId": "a4d5745d-3fb2-4a51-8d98-d57ce9629dec",
+                    "name": "Merkaria",
+                    "rank": 25,
+                    "amount": 331,
+                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/e8ad7d83-ce2c-5a09-dc74-8db194560329\/avatar\/head\/file"
+                },
+                {
+                    "playerId": "75a59c8e-c7a5-4d32-bae4-89f9e6ad10de",
+                    "name": "MiwelR",
+                    "rank": 26,
+                    "amount": 328,
+                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/2600a030-b019-a783-708b-37a27a477003\/avatar\/head\/file"
+                },
+                {
+                    "playerId": "231680be-63b3-470b-9ba6-7cc703b29b28",
+                    "name": "BenetFL6",
+                    "rank": 27,
+                    "amount": 294,
+                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/79f786b8-76b4-ae4e-280e-58e460ebccec\/avatar\/head\/file"
+                },
+                {
+                    "playerId": "28cee49e-c9d7-4243-8b97-c7fcf18a7788",
+                    "name": "CryptoBull",
+                    "rank": 28,
+                    "amount": 284,
+                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/a2b1d358-8b1d-321d-cd63-df2fcb998d48\/avatar\/head\/file"
+                },
+                {
+                    "playerId": "277dc3d8-d136-44ff-b92c-947487032893",
+                    "name": "DexterMorgan507",
+                    "rank": 29,
+                    "amount": 273,
+                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/10cd99f3-3ff3-aa6c-ad93-51a2c6929d74\/avatar\/head\/file"
+                },
+                {
+                    "playerId": "9052819f-82a5-4ee0-aa5f-c455548a813e",
+                    "name": "GuiLuXxe34",
+                    "rank": 30,
+                    "amount": 261,
+                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/f532fdfe-c7d6-fb12-a91c-b71c7cfbd161\/avatar\/head\/file"
+                },
+                {
+                    "playerId": "e9e3fab2-7497-4ef0-9eb7-77abd7102ddb",
+                    "name": "MarcMarcelle",
+                    "rank": 31,
+                    "amount": 216,
+                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/90f98f18-e413-4d8b-fc46-75da672aa8e2\/avatar\/head\/file"
                 },
                 {
                     "playerId": "f70ba6f9-094d-4c5c-a59a-afb6f905383e",
                     "name": "CryptoManiaques",
-                    "rank": 34,
-                    "amount": 256,
+                    "rank": 32,
+                    "amount": 169,
                     "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/b8b786fa-fe45-7df8-714c-a792111494ae\/avatar\/head\/file"
                 },
                 {
-                    "playerId": "466fe57e-f40f-430e-a5c6-4dd68dd4da95",
-                    "name": "W3nChaos",
-                    "rank": 36,
-                    "amount": 252,
-                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/1834e7ac-5b6c-ad40-fb88-5e20fd243ee9\/avatar\/head\/file"
+                    "playerId": "9dbbbff2-6abb-4710-96e8-1bae3b2bd389",
+                    "name": "SummerShades",
+                    "rank": 33,
+                    "amount": 167,
+                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/6bc8ea84-7418-f760-5512-80ef6dd6fc6b\/avatar\/head\/file"
                 },
                 {
                     "playerId": "fa376711-053d-4e32-8557-ebf2d89fe29c",
                     "name": "alextor4115",
-                    "rank": 37,
-                    "amount": 227,
+                    "rank": 34,
+                    "amount": 148,
                     "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/b8642532-6e92-0c0b-00dd-fa613f2fe4d9\/avatar\/head\/file"
                 },
                 {
                     "playerId": "e777dbf5-71bc-416e-aa2a-624258ba5097",
                     "name": "Woden76",
-                    "rank": 37,
-                    "amount": 227,
+                    "rank": 35,
+                    "amount": 140,
                     "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/dda34bce-d49e-b307-a319-11d64537c5f4\/avatar\/head\/file"
                 },
                 {
-                    "playerId": "9052819f-82a5-4ee0-aa5f-c455548a813e",
-                    "name": "GuiLuXxe34",
-                    "rank": 39,
-                    "amount": 213,
-                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/f532fdfe-c7d6-fb12-a91c-b71c7cfbd161\/avatar\/head\/file"
-                },
-                {
-                    "playerId": "9ff8cf78-450b-4eac-8009-0271c5b9c16e",
-                    "name": "Xiux37",
-                    "rank": 40,
-                    "amount": 189,
-                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/3385c4b9-d229-156e-71f5-f213e61517a0\/avatar\/head\/file"
-                },
-                {
-                    "playerId": "ac4fcc50-d8ed-4c66-a1b6-d5bf0a6c5f72",
-                    "name": "Arpman",
-                    "rank": 41,
-                    "amount": 182,
-                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/d87624b4-611b-5a1f-2855-c0dd4404fb2b\/avatar\/head\/file"
-                },
-                {
-                    "playerId": "e9e3fab2-7497-4ef0-9eb7-77abd7102ddb",
-                    "name": "MarcMarcelle",
-                    "rank": 42,
-                    "amount": 155,
-                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/90f98f18-e413-4d8b-fc46-75da672aa8e2\/avatar\/head\/file"
-                },
-                {
-                    "playerId": "6a343163-61e2-44ed-a681-6a0aa50910ea",
-                    "name": "baaabshunter",
-                    "rank": 43,
-                    "amount": 148,
-                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/e9a06edb-c65f-fd76-97ed-ea14903f7b5c\/avatar\/head\/file"
-                },
-                {
-                    "playerId": "9dbbbff2-6abb-4710-96e8-1bae3b2bd389",
-                    "name": "SummerShades",
-                    "rank": 44,
-                    "amount": 136,
-                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/6bc8ea84-7418-f760-5512-80ef6dd6fc6b\/avatar\/head\/file"
-                },
-                {
-                    "playerId": "e01bf927-c24c-4a00-9355-a2e9b62de080",
-                    "name": "bastralcs",
-                    "rank": 45,
-                    "amount": 129,
-                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/d4103870-e90e-2b7b-766c-a07c18faf9b4\/avatar\/head\/file"
+                    "playerId": "466fe57e-f40f-430e-a5c6-4dd68dd4da95",
+                    "name": "W3nChaos",
+                    "rank": 36,
+                    "amount": 138,
+                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/1834e7ac-5b6c-ad40-fb88-5e20fd243ee9\/avatar\/head\/file"
                 },
                 {
                     "playerId": "fc516c94-b7ba-4460-ae89-674b7ffd30a9",
                     "name": "ConfusedMonkee",
-                    "rank": 46,
-                    "amount": 122,
+                    "rank": 37,
+                    "amount": 101,
                     "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/cd0809aa-0965-f22c-0c3a-5b6d04141dc8\/avatar\/head\/file"
-                },
-                {
-                    "playerId": "cb716013-288f-48e7-babd-44539325f16b",
-                    "name": "Tuppapa",
-                    "rank": 47,
-                    "amount": 102,
-                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/cb32e88a-53e2-a1ec-547e-ae6e54f929b3\/avatar\/head\/file"
-                },
-                {
-                    "playerId": "7daa4e7f-f563-420f-977e-cf2efcf0b9c1",
-                    "name": "elconejomalods",
-                    "rank": 48,
-                    "amount": 90,
-                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/68e0bad6-094a-aa4b-7e16-5509318eaeac\/avatar\/head\/file"
-                },
-                {
-                    "playerId": "6eeb6560-1464-44ce-93ab-d0934c9a9ad4",
-                    "name": "Epic_Monty",
-                    "rank": 49,
-                    "amount": 86,
-                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/e33ed283-3791-5d76-612b-383e6085b21e\/avatar\/head\/file"
                 },
                 {
                     "playerId": "80f5426d-e3d3-4568-88cd-26d7cec1f877",
                     "name": "juudje82",
-                    "rank": 50,
-                    "amount": 62,
+                    "rank": 38,
+                    "amount": 89,
                     "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/c5d2c556-c44c-6591-b59d-05e7c206d804\/avatar\/head\/file"
-                },
-                {
-                    "playerId": "1cfa1e59-48f8-4539-8663-cffb0375b2e8",
-                    "name": "tieumapBH",
-                    "rank": 51,
-                    "amount": 33,
-                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/e8c327ac-f11b-3106-4898-da038d74ea79\/avatar\/head\/file"
                 },
                 {
                     "playerId": "41243fca-c656-4ca3-b5cd-c4afebf351be",
                     "name": "SunlightMoon",
-                    "rank": 52,
-                    "amount": 14,
+                    "rank": 39,
+                    "amount": 43,
                     "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/0f5cd84e-5520-7754-a62e-848e8a707a3e\/avatar\/head\/file"
+                },
+                {
+                    "playerId": "413aa1a4-2397-441b-8dc4-627fa1b287bb",
+                    "name": "trangamang",
+                    "rank": 40,
+                    "amount": 0,
+                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/c9c54b5d-4fc2-0b62-f65b-eef22dedae05\/avatar\/head\/file"
+                },
+                {
+                    "playerId": "6eeb6560-1464-44ce-93ab-d0934c9a9ad4",
+                    "name": "Epic_Monty",
+                    "rank": 40,
+                    "amount": 0,
+                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/e33ed283-3791-5d76-612b-383e6085b21e\/avatar\/head\/file"
+                },
+                {
+                    "playerId": "84c999f4-9bf3-4610-b7b6-ab722da65c28",
+                    "name": "Bakroe_sama",
+                    "rank": 40,
+                    "amount": 0,
+                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/57c25755-7b6d-50a1-55d1-0e210e43e85a\/avatar\/head\/file"
+                },
+                {
+                    "playerId": "a0755408-210f-4375-bb34-909a52a53fe7",
+                    "name": "y_uncle_fester",
+                    "rank": 40,
+                    "amount": 0,
+                    "profile": "https:\/\/customizer-api.moonsama.com\/api\/v1\/public\/user\/6fa4485e-ab5e-2e42-2843-1ceae4f449f2\/avatar\/head\/file"
                 }
             ]
         }
