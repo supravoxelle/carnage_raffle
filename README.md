@@ -1,8 +1,8 @@
 # carnage-raffle
 
-To pick the lottery winners via a publicly verifiable random seed - we’ll be using the hash from Exosama network block #16888245. The alphabetic values will be stripped from the hash and only the numeric values will be used as the seed.
+To pick the lottery winners via a publicly verifiable random seed - we’ll be using the hash from Exosama network block #17125151. The alphabetic values will be stripped from the hash and only the numeric values will be used as the seed.
 
-https://explorer.exosama.com/block/16888245/transactions
+https://explorer.exosama.com/block/17125151/transactions
 
 ```
 yarn
